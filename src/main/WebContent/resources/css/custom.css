@@ -1,0 +1,198 @@
+/*Custom Css*/
+/*label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+  }*/
+
+  input, select {
+    width: 250px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  .invoice-detailss {
+    text-align: right;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f0f0f0;
+  }
+  .totals {
+    margin-top: 20px;
+    text-align: right;
+  }
+  .small-input {
+    width: 250px; /* Cambia este valor según tus necesidades */
+    padding: 5px;
+    font-size: 12px; /* Cambia este valor para ajustar el tamaño del texto */
+  }
+  .button-container {
+    display: center;
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+    width: 330px; /* Ajusta este valor según tus necesidades */
+    height: 60px;
+    margin: 20px auto;
+  }
+
+  .button {
+    padding: 4px 20px;
+    background-color: #4baa4b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 50px;
+     width: 100px; 
+  }
+  .button-dlt {
+    padding: 5px 5px;
+    background-color: rgb(254, 54, 44);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 40px;
+     width: 110px;
+  }
+  .button-dlt-view {
+    padding: 5px 5px;
+    background-color: rgb(254, 54, 44);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 40px;
+     width: 50px;    
+  }
+  .button-mdf {
+    padding: 5px 5px;
+    background-color: rgb(0, 255, 64);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 40px;
+     width: 50px; 
+  }
+  .button-mdf-view {
+    padding: 5px 5px;
+    background-color: rgb(0, 255, 64);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 40px;
+     width: 110px; 
+  }
+  .button-cncl {
+    padding: 5px 5px;
+    background-color: rgb(0, 0, 160);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 40px;
+     width: 110px; 
+  }
+  .button-regresar {
+    padding: 4px 20px;
+    background-color: rgb(1, 33, 107);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 50px;
+     width: 200px; 
+  }
+   .button-agr-fac {
+    padding: 4px 20px;
+    background-color: rgb(5, 159, 218);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 50px;
+     width: 200px; 
+  }
+   .button-agr-per {
+    padding: 4px 20px;
+    background-color: rgb(5, 159, 218);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 50px;
+     width: 200px; 
+  }
+  .button-agregar {
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+     height: 50px;
+     width: 150px; 
+  }
+  .button-container2 {
+    display: flex-start;
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+    width: 330px; /* Ajusta este valor según tus necesidades */
+    height: 50px;
+    margin: 20px auto;
+  }
+  .contenedor {
+	  padding: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .contenedor-flexbox {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    padding: 15px;
+    /*border: 1px solid #ccc; /* Agregar un borde para visualizar el contenedor */
+  }
+  .contenedor-flexbox-div {
+    display: flex;
+  }
+  .cuadro-texto {
+      width: 70%; /* Ancho del cuadro de texto */
+      height: 50px; /* Altura del cuadro de texto */
+      background-color: #c0c0e0; /* Color de fondo gris-azulado */
+      border: 2px solid #555; /* Borde de 2 píxeles sólido color gris oscuro */
+      border-radius: 10px; /* Bordes redondos de 10 píxeles */
+      padding: 10px; /* Espacio interno para el texto */
+      font-size: 16px; /* Tamaño de fuente */
+    }
+    
+    
+    .custom-icon-color .fas.fa-trash-alt{
+    color: white;
+  	}
+  	 .custom-icon-color .fas.fa-sync-alt.fa-spin{
+    color: white;
+  	}
